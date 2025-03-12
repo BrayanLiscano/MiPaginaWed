@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Motos Yamaha</title>
+    <style>
+        /* Reset de márgenes y padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1e1e1e;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #003A72; /* Azul Yamaha */
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            color: #FFD700; /* Amarillo Yamaha */
+        }
+
+        header p {
+            font-size: 1.5rem;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        #motorbike {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 50px 0;
+            padding: 20px;
+            background-color: #333;
+            border-radius: 8px;
+        }
+
+        #bike-img {
+            width: 400px; /* Tamaño más pequeño de la imagen */
+            height: auto; /* Mantiene la proporción de la imagen */
+            border-radius: 23px;
+            margin-right: 200px;
+        }
+
+        .text-content {
+            max-width: 600px;
+        }
+
+        .text-content h2 {
+            font-size: 2.5rem;
+            color: #FFD700; /* Amarillo Yamaha */
+            margin-bottom: 20px;
+        }
+
+        .text-content p {
+            font-size: 1.1rem;
+            color: #ccc;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #FFD700; /* Amarillo */
+            color: #003A72; /* Azul */
+            padding: 12px 30px;
+            margin-top: 20px;
+            font-size: 1.2rem;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #003A72; /* Azul */
+            color: #fff;
+        }
+
+        .history {
+            background-color: #222;
+            padding: 30px;
+            margin: 50px 0;
+            border-radius: 8px;
+        }
+
+        .history h2 {
+            font-size: 2.5rem;
+            color: #FFD700;
+            margin-bottom: 20px;
+        }
+
+        .history p {
+            font-size: 1.2rem;
+            color: #ccc;
+        }
+
+        footer {
+            background-color: #003A72;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+            color: #fff;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            color: #fff;
+            font-size: 1.5rem;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Header con logo de Yamaha y mensaje -->
+    <header>
+        <h1>Yamaha Motor</h1>
+        <p>La potencia, la precisión y la pasión sobre dos ruedas.</p>
+        <a href="#motorbike" class="btn">Explorar Motos</a>
+    </header>
+
+    <!-- Sección de moto con imagen y texto -->
+    <section id="motorbike">
+        <img src="Brayan Yamaha.jpg" alt="Moto Yamaha" id="bike-img">
+        <div class="text-content">
+            <h2>Yamaha Libero 125</h2>
+            <p>La Yamaha Libero 125 es una motocicleta urbana de 124 cc, ideal para el tráfico diario. Destaca por su motor eficiente en combustible, diseño sencillo y cómodo, y fácil maniobrabilidad. Es ligera, económica y perfecta para quienes buscan una moto práctica y accesible para el día a día.</p>
+            <a href="#history" class="btn">Más sobre Yamaha</a>
+        </div>
+    </section>
+
+    <!-- Sección de Historia de Yamaha -->
+    <section id="history" class="history">
+        <h2>Historia de Yamaha</h2>
+        <p>Yamaha fue fundada en 1953 y desde entonces ha sido pionera en la industria de las motocicletas. Conocida por su innovación, Yamaha ha ofrecido vehículos de alto rendimiento, diseñados para satisfacer las necesidades de los motociclistas más apasionados. Desde la famosa YZF-R1 hasta las motocicletas de turismo, Yamaha sigue marcando el camino en el mundo de las motos.</p>
+        <a href="#motorbike" class="btn">Ver más motos</a>
+    </section>
+
+    <!-- Footer con redes sociales -->
+    <footer>
+        <p>&copy; 2025 Yamaha Motor. Todos los derechos reservados.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/yamaha" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/yamaha" target="_blank">Instagram</a>
+            <a href="https://www.youtube.com/user/YamahaMotor" target="_blank">YouTube</a>
+        </div>
+    </footer>
+</body>
+</html>
